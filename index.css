@@ -47,3 +47,16 @@ li{
   text-align: center;
   line-height: 300px;
 }
+
+.logo {
+  display: flex;
+  max-width: 750px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
