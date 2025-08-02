@@ -2,16 +2,17 @@ h1, p {
     color: #367EA5;
     font-family: revert-layer calibre Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+
 }
 body{
-    background-color: #88a78e;
+    background-color: #738276;
 }
 nav {
     padding: 0;
     margin: 0;
     display: block;
     font-size: 20px;
-    font-family: Impact,  Haettenschweiler, 'Times New Roman', Times, serif;
+    font-family: Impact, 'Times New Roman', Times, serif;
     font-weight: lighter;
     left: 10%;
     bottom: 10%;
@@ -30,4 +31,19 @@ a{
 }
 li{
     list-style: none;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container> div{
+  background-color: #aeb6a0;
+  color: white;
+  width: 500px;
+  margin: 5px;
+  text-align: center;
+  line-height: 300px;
 }
