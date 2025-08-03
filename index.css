@@ -45,21 +45,19 @@ header {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  height: 50px
 }
 
-.flex-container> div{
-  background-color: #aeb6a0;
-  color: white;
-  width: 500px;
-  margin: 5px;
-  text-align: center;
-  line-height: 300px;
-  display: flex;
+.flex-container div img {
+    width: 450px;
+    height: 250px;
+    display: block;
 }
 
-.flex-container> div> img {
-    width: 500px;
-    height:300px;
+.nz-sea-lion {
+  margin-top: 250px;
 }
 
 .logo {
