@@ -1,21 +1,21 @@
 h1 {
     color: white;
     font-family: ariel;
-    text-align: center;
+    text-align: center; /* makes my h1 text in the middle of the page*/
     font-size: 30px;
 }
 body{
     background-color: #738276;
     margin: 0px;
-    background-image: url("Images/background.png");
+    background-image: url("Images/background.png"); /*adds a background image*/
 }
 main{
-    margin: 20px;
+    margin: 20px; /*body margin is 0px so nav bar covers full page and main in 20px so the rest of the website has a margin*/
 }
 
 header {
-  display: flex;
-  align-items: center;
+  display: flex; /*makes the logo a lex container than I can move around and adjust*/
+  align-items: center; /*as I don't want my header to take up all available space*/
   justify-content: space-between;
   padding: 10px 20px;
 }
@@ -60,13 +60,17 @@ header {
   margin-top: 250px;
 }
 
+.nz-sea-lion p{
+    margin-top: 10px;
+}
+
 .logo {
   display: flex;
-  max-width: 500px;
+  max-width: 500px; /*makes sure that the logo doesnt exceed this value, it will accommodate to fit screen sizes that don't*/
   margin: 0
 }
 
 .logo img {
-  max-width: 100%;
+  max-width: 100%; /*makes sure the logo takes up all te space it can but as the code says above, it wil not exceed 500px*/
   height: auto;
 }
