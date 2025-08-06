@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page2.css">
+    <script src="script.js" defer></script>
     <title>Endangerment of Native Aquatic Species in NZ</title>
 </head>
 <body>
@@ -20,10 +21,26 @@
         </ul>
     </nav>
     <main>
-        <section>
+      <p>
+        Roads are usually made of
+        <span class="definition" data-popup-id="asphalt">asphalt</span>
+        or
+        <span class="definition" data-popup-id="gravel">gravel</span>.
+      </p>
 
-        </section>
+      <!-- Popup containers (outside the inline text now) -->
+      <div id="asphalt" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <strong>Asphalt</strong><br>
+        A mixture of bitumen and gravel compacted to make a smooth black road surface.
+      </div>
 
+      <div id="gravel" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <strong>Gravel</strong><br>
+        Loose small stones used as a road surface in rural or low-traffic areas.
+      </div>
     </main>
+
 </body>
 </html>
