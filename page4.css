@@ -16,7 +16,7 @@ header {
 
 .navbar ul{
     list-style-type: none;
-    background-color: #aeb6a0;
+    background-color: #bc667b;
     padding: 25px;
     margin 0px;
     overflow: hidden;
@@ -35,6 +35,10 @@ header {
     padding: 25px;
     display: block
     text-align: center;
+}
+
+nav a:hover {
+  background-color: #330000;
 }
 .logo {
   display: flex;

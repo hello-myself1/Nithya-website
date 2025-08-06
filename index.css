@@ -1,13 +1,20 @@
+
 h1 {
-    color: white;
-    font-family: ariel;
+    color: #bc667b;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center; /* makes my h1 text in the middle of the page*/
-    font-size: 30px;
+    font-size: 50px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #738276;
     margin: 0px;
     background-image: url("Images/background.png"); /*adds a background image*/
+    background-attachment: fixed; /*makes my background in a fixed position, so when I scroll, it doesnt duplicate or move with it*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
 }
 main{
     margin: 20px; /*body margin is 0px so nav bar covers full page and main in 20px so the rest of the website has a margin*/
@@ -22,7 +29,7 @@ header {
 
 .navbar ul{
     list-style-type: none;
-    background-color: #aeb6a0;
+    background-color: #bc667b;
     padding: 25px;
     margin 0px;
     overflow: hidden;
@@ -39,29 +46,30 @@ header {
     color: white;
     text-decoration: none;
     padding: 25px;
-    display: block
+    display: inline-block
     text-align: center;
+    transition: background-color 0.5s ease;
+}
+nav a:hover {
+  background-color: #330000;
 }
 
-.section-container {
+.flexbox-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
   padding: 15px;
 }
 
-.section-container div img {
+.flexbox-container div img {
     width: 450px;
     height: 250px;
     display: block;
 }
 
-.nz-sea-lion img{
+.nz-sea-lion {
   margin-top: 250px;
-}
-
-.nz-sea-lion p{
-    margin-top: 10px;
 }
 
 .logo {
