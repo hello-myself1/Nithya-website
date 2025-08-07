@@ -1,5 +1,4 @@
 body{
-    background-color: #738276;
     margin: 0px;
     background-image: url("Images/background.png");
     background-attachment: fixed;
@@ -20,7 +19,7 @@ header {
 
 .navbar ul{
     list-style-type: none;
-    background-color: #bc667b;
+    background-color:#bc667b;
     padding: 25px;
     margin 0px;
     overflow: hidden;
@@ -40,10 +39,6 @@ header {
     display: block
     text-align: center;
 }
-
-nav a:hover {
-  background-color: #330000;
-}
 .logo {
   display: flex;
   max-width: 500px;
@@ -53,4 +48,17 @@ nav a:hover {
 .logo img {
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 10px;
+}
+.container > div {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
 }
