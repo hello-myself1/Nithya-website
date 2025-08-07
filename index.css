@@ -1,15 +1,17 @@
-
+/*styles my title text*/
 h1 {
     color: #bc667b;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center; /* makes my h1 text in the middle of the page*/
     font-size: 50px;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+/*added a background image to the body, making sure that it doesn't repeat as you scroll and stays in a fixed position*/
 body{
-    margin: 0px;
+    margin: 0px; /*allows my nav bar to take up the whole screen*/
     background-image: url("Images/background.png"); /*adds a background image*/
     background-attachment: fixed; /*makes my background in a fixed position, so when I scroll, it doesnt duplicate or move with it*/
     background-repeat: no-repeat;
@@ -17,7 +19,7 @@ body{
     overflow-y: scroll;
 }
 main{
-    margin: 20px; /*body margin is 0px so nav bar covers full page and main in 20px so the rest of the website has a margin*/
+    margin: 20px; /*body margin is 0px so nav bar covers full page and main in 20px so the rest of the content of the website has a margin*/
 }
 
 header {
@@ -27,6 +29,7 @@ header {
   padding: 10px 20px;
 }
 
+/*styles the unordered list of my navbar. Removes any underlining or bullet points. Makes each item spaced evenly along the space and puts the them in the middle of the box*/
 .navbar ul{
     list-style-type: none;
     background-color: #bc667b;
@@ -38,48 +41,52 @@ header {
     align-items: center;
     display: flex;
 }
-
+/*styles for actual list items. Makes the actual text centered*/
 .navbar li{
     flex: 1
     text-align: center;
 }
+/*styles for the text of each list item. Removes any underlining or other text-decoration. Makes each a item a block shape*/
 .navbar a{
     color: white;
     text-decoration: none;
     padding: 25px;
     display: inline-block
     text-align: center;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease; /*time taken for transition to occur*/
 }
+/*when navbar is hovered, the background colour will change and will apply transition above*/
 nav a:hover {
   background-color: #330000;
 }
 
+/*style for flexbox container with images and text. Spaces each flex-item evenly across the screen*/
 .flexbox-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;/*automatically adjust size when there is not enough screen space*/
   justify-content: space-evenly;
   align-items: flex-start;
   padding: 15px;
 }
 
+/*changes styles of all images ,making sure they are the same size */
 .flexbox-container div img {
     width: 450px;
     height: 250px;
     display: block;
 }
-
+/*styles specifically the sea lion image, moving it further down*/
 .nz-sea-lion {
   margin-top: 250px;
 }
-
+/*styles my logo, positions it at the far top left of the page*/
 .logo {
   display: flex;
   max-width: 500px; /*makes sure that the logo doesnt exceed this value, it will accommodate to fit screen sizes that don't*/
   margin: 0
 }
-
+/*styles image of my page. matches height ratio with width (of 100% - whole image is shown) */
 .logo img {
-  max-width: 100%; /*makes sure the logo takes up all te space it can but as the code says above, it wil not exceed 500px*/
+  max-width: 100%; /*makes sure the logo takes up all the space it can but as the code says above, it wil not exceed 500px*/
   height: auto;
 }
