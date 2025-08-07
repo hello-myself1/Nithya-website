@@ -49,3 +49,19 @@ header {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 30px;
+  padding: 10px;
+}
+
+.container > div {
+  padding: 30px;
+  border: 1px solid black;
+  background-color: #bc667b;
+  border-radius: 5px;
+
+}
