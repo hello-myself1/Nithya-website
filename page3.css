@@ -99,3 +99,37 @@ h1, p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*code for tooltip*/
+span.endemic-tooltip{
+    color: yellow;
+    position: relative;
+    cursor: pointer;
+}
+
+/*underlines it when hovered on*/
+span.endemic-tooltip:hover,
+span.endemic-tooltip:focus{
+    text-decoration: underline;
+}
+
+/*show tooltip when hovering*/
+span.endemic-tooltip:hover > span,
+span.endemic-tooltip:focus > span{
+    display: inline;
+}
+
+/*creating the tooltip box*/
+span.endemic-tooltip span{
+    display:none;
+    width: 200px;
+    background-color: #330000;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px;
+}
