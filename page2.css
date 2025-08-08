@@ -39,6 +39,10 @@ header {
     display: block
     text-align: center;
 }
+
+nav a:hover {
+  background-color: #330000;
+}
 .logo {
   display: flex;
   max-width: 500px;
@@ -59,11 +63,13 @@ h1, p{
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px;
+  margin-top: 80px;
+  padding: 30px;
+
 }
 .container > div {
   background-color: #bc667b;
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
   text-align: center;
 }
@@ -76,7 +82,7 @@ h1, p{
 .solutions-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10px;
+  padding: 20px;
 }
 
 .solutions-container > div{
@@ -94,3 +100,4 @@ h1, p{
     height: 100%;
     border: 0; /*removes border around video*/
 }
+
