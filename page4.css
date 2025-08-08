@@ -1,4 +1,5 @@
 body{
+    background-color: #738276;
     margin: 0px;
     background-image: url("Images/background.png");
     background-attachment: fixed;
@@ -19,7 +20,7 @@ header {
 
 .navbar ul{
     list-style-type: none;
-    background-color:#bc667b;
+    background-color: #bc667b;
     padding: 25px;
     margin 0px;
     overflow: hidden;
@@ -53,28 +54,46 @@ nav a:hover {
   max-width: 100%;
   height: auto;
 }
-
-h1,p{
+/*styles text of my container-items*/
+h1, p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
 }
+/*uses container grid property to make 2d layouts. Makes evenly spaced columns with 50px between each row*/
 .container {
   display: grid;
+  margin-top: 70px;
   grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
   padding: 10px;
-}
-.container > div {
-  background-color: #bc667b;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
 }
 
-.container > div img{
+/*styles containers: adds a background colour, padding for content inside and slightly rounds the corners  */
+.container > div {
+  padding: 30px;
+  background-color: #bc667b;
+  border-radius: 5px;
+
+}
+/*makes all images and videos take up 100% with matching height ratio*/
+.maui-dolphin-pics img{
+    width: 700px;
+    height: 350px;
+}
+.threats-pics img{
     width: 100%;
     height: auto;
 }
-.container > div p{
-    margin-bottom: 100px;
+
+.solutions-video iframe{
+    width: 100%;
+    height: 100%;
+    border: 0; /*removes border around video*/
+}
+
+/*styles solutions section as it was not applied in h1, p style as its an unordered list*/
+.solutions li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }

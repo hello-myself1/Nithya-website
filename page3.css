@@ -44,6 +44,7 @@ header {
 nav a:hover {
   background-color: #330000;
 }
+
 .logo {
   display: flex;
   max-width: 500px;
