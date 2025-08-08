@@ -78,8 +78,11 @@ h1, p{
 }
 /*makes all images and videos take up 100% with matching height ratio*/
 .maui-dolphin-pics img{
-    width: 700px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
+}
+.maui-dolphin h1{
+    font-size: 30px;
 }
 .threats-pics img{
     width: 100%;

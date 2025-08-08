@@ -5,9 +5,9 @@ h1 {
     text-align: center; /* makes my h1 text in the middle of the page*/
     font-size: 50px;
 }
-
-p {
+h2, p {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center
 }
 /*added a background image to the body, making sure that it doesn't repeat as you scroll and stays in a fixed position*/
 body{
@@ -29,7 +29,6 @@ header {
   padding: 10px 20px;
 }
 
-/*styles the unordered list of my navbar. Removes any underlining or bullet points. Makes each item spaced evenly along the space and puts the them in the middle of the box*/
 .navbar ul{
     list-style-type: none;
     background-color: #bc667b;
@@ -39,23 +38,20 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
 }
-/*styles for actual list items. Makes the actual text centered*/
+
 .navbar li{
     flex: 1
     text-align: center;
 }
-/*styles for the text of each list item. Removes any underlining or other text-decoration. Makes each a item a block shape*/
 .navbar a{
     color: white;
     text-decoration: none;
     padding: 25px;
-    display: inline-block
+    display: block
     text-align: center;
-    transition: background-color 0.5s ease; /*time taken for transition to occur*/
 }
-/*when navbar is hovered, the background colour will change and will apply transition above*/
+
 nav a:hover {
   background-color: #330000;
 }
@@ -77,7 +73,7 @@ nav a:hover {
 }
 /*styles specifically the sea lion image, moving it further down*/
 .nz-sea-lion {
-  margin-top: 250px;
+  margin-top: 150px;
 }
 /*styles my logo, positions it at the far top left of the page*/
 .logo {
@@ -90,3 +86,5 @@ nav a:hover {
   max-width: 100%; /*makes sure the logo takes up all the space it can but as the code says above, it wil not exceed 500px*/
   height: auto;
 }
+
+

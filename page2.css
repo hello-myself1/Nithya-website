@@ -6,6 +6,10 @@ body{
     background-size: cover;
     overflow-y: scroll;
 }
+
+h2{
+    text-align: center
+}
 main{
     margin: 20px;
 }
@@ -19,7 +23,7 @@ header {
 
 .navbar ul{
     list-style-type: none;
-    background-color:#bc667b;
+    background-color: #bc667b;
     padding: 25px;
     margin 0px;
     overflow: hidden;
