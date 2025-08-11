@@ -7,7 +7,7 @@ h1 {
 }
 h2, p {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center
+    text-align: center;
 }
 /*added a background image to the body, making sure that it doesn't repeat as you scroll and stays in a fixed position*/
 body{
@@ -33,7 +33,6 @@ header {
     list-style-type: none;
     background-color: #bc667b;
     padding: 25px;
-    margin 0px;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -41,14 +40,14 @@ header {
 }
 
 .navbar li{
-    flex: 1
+    flex: 1;
     text-align: center;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
     padding: 25px;
-    display: block
     text-align: center;
 }
 
