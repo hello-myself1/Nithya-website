@@ -22,7 +22,6 @@ header {
     list-style-type: none;
     background-color: #bc667b;
     padding: 25px;
-    margin 0px;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -30,9 +29,10 @@ header {
 }
 
 .navbar li{
-    flex: 1
+    flex: 1;
     text-align: center;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;

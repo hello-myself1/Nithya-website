@@ -30,7 +30,7 @@ header {
 }
 
 .navbar li{
-    flex: 1
+    flex: 1;
     text-align: center;
 }
 .navbar a{
