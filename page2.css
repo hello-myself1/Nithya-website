@@ -55,7 +55,7 @@ nav a:hover {
   height: auto;
 }
 
-h1, p{
+h1, p{/*styles all h1 and p text on this page*/
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
@@ -63,37 +63,37 @@ h1, p{
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 80px;
+  grid-template-columns: 1fr 1fr 1fr;/*evenly spaced out columns*/
+  margin-top: 80px;/*how far it is from the top of the screen*/
   padding: 30px;
 
 }
 .container > div {
-  background-color: #bc667b;
+  background-color: #bc667b; /*background color*/
   padding: 20px;
   font-size: 20px;
-  text-align: center;
+  text-align: center;/*makes sure an text in the center of the column - not starting from left or right*/
 }
 
 .container > div img{
-    width: 100%;
+    width: 100%;/*makes all widths of images 100% and proportions out the height accordingly*/
     height: auto;
 }
 
-.solutions-container{
+.solutions-container{/*another container for solutions*/
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;/*only two compared to three above as there are only two columns that need to be spaced evenly*/
   padding: 20px;
 }
 
-.solutions-container > div{
+.solutions-container > div{/*same styles as for container above*/
   background-color: #bc667b;
   padding: 10px;
   font-size: 20px;
 }
 
 .text li{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;/*makes sure the list text in solutions matches other h1&p text and doesn't affect list items of navbar*/
     font-size: 20px;
 }
 .video iframe{

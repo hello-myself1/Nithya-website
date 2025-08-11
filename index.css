@@ -19,23 +19,23 @@ body{
     overflow-y: scroll;
 }
 main{
-    margin: 20px; /*body margin is 0px so nav bar covers full page and main in 20px so the rest of the content of the website has a margin*/
+    margin: 30px; /*body margin is 0px so nav bar covers full page and main in 30px so the rest of the content of the website has a margin*/
 }
 
 header {
   display: flex; /*makes the logo a lex container than I can move around and adjust*/
   align-items: center; /*as I don't want my header to take up all available space*/
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 20px;/*top and bottom paddings for header 10px while left and right paddings are 20px*/
 }
 
 .navbar ul{
-    list-style-type: none;
-    background-color: #bc667b;
+    list-style-type: none;/*removes any list style types: bullet points, underlining*/
+    background-color: #bc667b;/*background color*/
     padding: 25px;
-    overflow: hidden;
+    overflow: hidden;/*content going over the screen (overflowing) will be cut out/invisible*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;/*spaces each item evenly across screen*/
     align-items: center;
 }
 
@@ -45,14 +45,14 @@ header {
 }
 
 .navbar a{
-    color: white;
-    text-decoration: none;
+    color: white;/*color of text in the navbar*/
+    text-decoration: none;/*removes underlining*/
     padding: 25px;
-    text-align: center;
+    text-align: center;/*text is aligned at the center if each individual box-item*/
 }
 
 nav a:hover {
-  background-color: #330000;
+  background-color: #330000;/*background color will change when items in navbar are hovered upon*/
 }
 
 /*style for flexbox container with images and text. Spaces each flex-item evenly across the screen*/
