@@ -124,9 +124,9 @@ span.endemic-tooltip span{
     background-color: #330000;
     color: white;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 6px; /*adds curve around border*/
     padding: 5px 0;
-    position: absolute;
+    position: absolute;/*fixed position*/
     z-index: 1;
     top: 100%;
     left: 50%;

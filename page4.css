@@ -1,10 +1,11 @@
+/*styles background*/
 body{
     background-color: #738276;
-    margin: 0px;
-    background-image: url("Images/background.png");
+    margin: 0px; /*so nav bar takes up all available space */
+    background-image: url("Images/background.png");/*adds background image*/
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;/*makes sure it doesnt repeat as users scroll and is foxed in position*/
+    background-size: cover;/*covers whole screen*/
     overflow-y: scroll;
 }
 main{
@@ -17,15 +18,14 @@ header {
   justify-content: space-between;
   padding: 10px 20px;
 }
-
+/*styles unordered list for nav bar*/
 .navbar ul{
     list-style-type: none;
     background-color: #bc667b;
     padding: 25px;
-    margin 0px;
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;/*spaces items evenly*/
     align-items: center;
 }
 
@@ -43,6 +43,7 @@ header {
 nav a:hover {
   background-color: #330000;
 }
+/*styles img - makes sure it appears right on screen*/
 .logo {
   display: flex;
   max-width: 500px;
@@ -83,6 +84,7 @@ h1, p{
 .maui-dolphin h1{
     font-size: 30px;
 }
+/*makes all pics' width 100% and adjusts height proportionately  */
 .threats-pics img{
     width: 100%;
     height: auto;
